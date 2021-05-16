@@ -1,37 +1,175 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
 
-You can use the [editor on GitHub](https://github.com/Wangruixiao1213/Wangruixiao1213.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="utf-8">
+    <title>微博热搜</title>
+    <style id="system" type="text/css">
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote {
+            margin: 0;
+            padding: 0;
+        }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        body {
+            font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+            font-size: 13px;
+            line-height: 18px;
+            color: #737373;
+            margin: 10px 13px 10px 13px;
+        }
 
-### Markdown
+        a {
+            color: #0069d6;
+        }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        a:hover {
+            color: #0050a3;
+            text-decoration: none;
+        }
 
-```markdown
-Syntax highlighted code block
+        a img {
+            border: none;
+        }
 
-# Header 1
-## Header 2
-### Header 3
+        p {
+            margin-bottom: 9px;
+        }
 
-- Bulleted
-- List
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #404040;
+            line-height: 36px;
+        }
 
-1. Numbered
-2. List
+        h1 {
+            margin-bottom: 18px;
+            font-size: 30px;
+        }
 
-**Bold** and _Italic_ and `Code` text
+        h2 {
+            font-size: 24px;
+        }
 
-[Link](url) and ![Image](src)
-```
+        h3 {
+            font-size: 18px;
+        }
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+        h4 {
+            font-size: 16px;
+        }
 
-### Jekyll Themes
+        h5 {
+            font-size: 14px;
+        }
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Wangruixiao1213/Wangruixiao1213.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+        h6 {
+            font-size: 13px;
+        }
 
-### Support or Contact
+        hr {
+            margin: 0 0 19px;
+            border: 0;
+            border-bottom: 1px solid #ccc;
+        }
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        blockquote {
+            padding: 13px 13px 21px 15px;
+            margin-bottom: 18px;
+            font-family: georgia, serif;
+            font-style: italic;
+        }
+
+        blockquote:before {
+            content: "C";
+            font-size: 40px;
+            margin-left: -10px;
+            font-family: georgia, serif;
+            color: #eee;
+        }
+
+        blockquote p {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 18px;
+            margin-bottom: 0;
+            font-style: italic;
+        }
+
+        code,
+        pre {
+            font-family: Monaco, Andale Mono, Courier New, monospace;
+        }
+
+        code {
+            background-color: #fee9cc;
+            color: rgba(0, 0, 0, 0.75);
+            padding: 1px 3px;
+            font-size: 12px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+        }
+
+        pre {
+            display: block;
+            padding: 14px;
+            margin: 0 0 18px;
+            line-height: 16px;
+            font-size: 11px;
+            border: 1px solid #d9d9d9;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        pre code {
+            background-color: #fff;
+            color: #737373;
+            font-size: 11px;
+            padding: 0;
+        }
+
+        @media screen and (min-width: 768px) {
+            body {
+                width: 748px;
+                margin: 10px auto;
+            }
+        }
+    </style>
+    <style id="custom" type="text/css"></style>
+</head>
+
+<link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css" />
+</head>
+
+<body marginheight="0">
+    <div>
+        <table border="0">
+            <tbody>
+                <tr>
+                    <td width="75%">
+                        <h1>王睿潇</h1>
+                            <p><b>本科生</b></p>
+                            <p><b>四川大学计算机学院</b></p>
+                            <p><b>邮箱:847573508@qq.com</b></p>
+                            <p><b>地址：四川省成都市双流区川大路2号四川大学，西园六舍，邮编610200</b></p>
+                    </td>
+                    <td width="25%">
+                        <img src="diana.jpg" width="100%">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</html>
